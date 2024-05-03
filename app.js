@@ -11,3 +11,7 @@ function read(){
     var paragraf = document.getElementById("paragraf")
     paragraf.innerHTML = lorem
 }
+
+function big(){
+    var img = document.getElementById("car").className = "hidden"
+}
