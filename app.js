@@ -15,3 +15,12 @@ function read(){
 function big(){
     var img = document.getElementById("car").className = "hidden"
 }
+
+function changeImage(){
+    var img = document.getElementById("astonMartan")
+    img .src = "image/automobile-automotive-car-358070.jpg"
+}
+function changeImageBefore(){
+    var img = document.getElementById("astonMartan")
+    img .src = "image/4270-Aston_Martin-car-red_cars.jpg"
+}
