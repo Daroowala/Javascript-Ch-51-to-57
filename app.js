@@ -24,3 +24,8 @@ function changeImageBefore(){
     var img = document.getElementById("astonMartan")
     img .src = "image/4270-Aston_Martin-car-red_cars.jpg"
 }
+
+function changer(id, src){
+var carImage = document.getElementById(id)
+carImage.src = src
+}
