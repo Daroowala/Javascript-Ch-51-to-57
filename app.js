@@ -29,3 +29,10 @@ function changer(id, src){
 var carImage = document.getElementById(id)
 carImage.src = src
 }
+
+
+var para = document.getElementsByTagName('p')
+para[4].style.color = 'red'
+for(i = 3; i < para.length; i++){
+    para[i].style.backgroundColor = 'yellow'
+}
